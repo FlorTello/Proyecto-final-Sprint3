@@ -99,6 +99,35 @@ nav:hover .nav-background ul .sign-up{
   padding: 0;
   color: #333447;
 }
+.info{
+  color: #f3f3f5;
+  height: 600px;
+  padding-left: 10%;
+  background: -webkit-linear-gradient(#76278f,#2B1E66);
+  background: -moz-linear-gradient(#76278f,#2B1E66);
+  background: linear-gradient(#76278f,#2B1E66);
+}
+.info h1,p{
+  margin: 15px;
+  line-height: 30px;
+}
+.info h1{
+  font-style: normal;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.info p{
+  font-weight: 300;
+}
+.info-left{
+  padding-top: 70px;
+  width: 40%;
+}
+.info-right{
+  position: absolute;
+  width: 50%;
+  padding-right: 200px;
+}
 .content1{
   text-align: justify;
   box-sizing: content-box;
