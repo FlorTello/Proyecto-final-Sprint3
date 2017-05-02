@@ -153,13 +153,43 @@ footer{
 footer div{
   margin: 20px 70px;
   line-height: 30px;
+  width: 40%;
 }
-footer ul, li ,a{
+footer ul, li ,a ,span{
   color:#f3f3f5;
   text-decoration: none;
   list-style: none;
 }
+footer ul li a:hover{
+  color:#FF00BF;
+  text-decoration: underline;
+}
+footer ul:hover{
+  color:#FF00BF;
+}
 footer img{
   width: 140px;
-  height: 42px;
+  height: 42px  ;
+}
+footer hr{
+  margin-left: 25%;
+}
+footer .redes-sociales{
+  display: inline-block;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  /*display: inline-block;*/
+  /*right:  3%;*/
+
+  text-align: center;
+}
+.twitter , .facebook , .Instagram{
+  position: relative;
+  color: white;
+  background-color: #333447;
+  border: solid white 1px ;
+  border-radius: 60%;
+  margin: 14px;
+  display: block;
 }
