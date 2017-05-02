@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Montserrat';
+  box-sizing: border-box;
 }
 a.logo{
   left: 0;
@@ -24,12 +25,14 @@ nav .nav-background{
 }
 header{
   width: 100%;
-  height: 1100px;
+  /*height: 1100px;*/
+  line-height: 0;
   position: relative;
 }
 .video-fondo{
-  /*position: fixed;*/
-  width: auto;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
   height: auto;
   top: 0;
 }
@@ -88,4 +91,68 @@ nav .nav-background ul .login-in:hover{
 }
 nav:hover .nav-background ul .sign-up{
   visibility: visible;
+}
+/*body*/
+.content{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #333447;
+}
+.content1{
+  text-align: justify;
+  box-sizing: content-box;
+  width: 70%;
+  height: 500px;
+  line-height: 25px;
+  display: inline-block;
+  position: absolute;
+}
+.content1 iframe{
+  position: relative;
+  right: 0;
+  width:100%;
+}
+.content2{
+  display: inline-block;
+  text-align: justify;
+  box-sizing: border-box;
+  padding: 7% 3%;
+  width: 30%;
+  height: 500px;
+  margin-left: 0;
+  line-height: 25px;
+
+}
+.content2 h4{
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+.content2 h1{
+  font-size: 1.8rem;
+  font-weight:700;
+}
+.content2 p{
+  font-weight: 300;
+}
+.div-left{
+  float: left;
+  position: relative;
+}
+.div-right{
+  float: right;
+  position: relative;
+}
+footer{
+  /*position: relative;*/
+  width: 100%;
+  /*height: 300px;*/
+  /*margin-bottom: 0;*/
+  /*top: 100%;*/
+}
+footer .div-left{
+
+}
+footer .div-right{
+
 }
